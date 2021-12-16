@@ -26,8 +26,3 @@ with open(csvFilePath) as csvFile:
 
 with open(jsonFilePath, 'w') as outfile:
     json.dump(my_list, outfile, indent=4)
-
-
-# with open(jsonFilePath, 'w') as jsonFile:
-#     # make it more readable
-#     jsonFile.write(json.dumps(data, indent=4))
